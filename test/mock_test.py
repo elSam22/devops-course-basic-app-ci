@@ -18,3 +18,4 @@ class MockTest(unittest.TestCase):
 
         mock_download.assert_called_once()
         self.assertEqual(len(result), 0)
+        
