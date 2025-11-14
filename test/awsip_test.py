@@ -14,4 +14,3 @@ class FindTest(unittest.TestCase):
 
     def test_find_aws_ip(self):
         self.assertEqual(len(src.find_aws_ip("3.10.120.3")), 2)
-        
